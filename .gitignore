@@ -1,0 +1,10 @@
+.DS_Store
+.vs/
+.vscode/
+.idea/
+*.o
+*.a
+*.exe
+
+/target
+Cargo.lock
