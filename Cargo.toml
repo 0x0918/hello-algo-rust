@@ -99,5 +99,15 @@ path = "chapter_searching/binary_search.rs"
 name = "bubble_sort"
 path = "chapter_sorting/bubble_sort.rs"
 
+# Run Command: cargo run --bin linear_search
+[[bin]]
+name = "linear_search"
+path = "chapter_searching/linear_search.rs"
+
+# Run Command: cargo run --bin hashing_search
+[[bin]]
+name = "hashing_search"
+path = "chapter_searching/hashing_search.rs"
+
 [dependencies]
 rand = "0.8.5"
