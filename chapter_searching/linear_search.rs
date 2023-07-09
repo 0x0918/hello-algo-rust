@@ -29,7 +29,7 @@ fn linear_search_linked_list(head: Rc<RefCell<ListNode<i32>>>, target: i32) -> O
     if let Some(node) = &head.borrow_mut().next {
         return linear_search_linked_list(node.clone(), target);
     }
-    // 未找到目标节点，返回 null
+    // 未找到目标节点，返回 None
     return None;
 }
 
