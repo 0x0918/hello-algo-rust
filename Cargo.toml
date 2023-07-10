@@ -139,5 +139,21 @@ path = "chapter_dynamic_programming/climbing_stairs_constraint_dp.rs"
 name = "climbing_stairs_backtrack"
 path = "chapter_dynamic_programming/climbing_stairs_backtrack.rs"
 
+# Run Command: cargo run --bin subset_sum_i_naive
+[[bin]]
+name = "subset_sum_i_naive"
+path = "chapter_backtracking/subset_sum_i_naive.rs"
+
+# Run Command: cargo run --bin subset_sum_i
+[[bin]]
+name = "subset_sum_i"
+path = "chapter_backtracking/subset_sum_i.rs"
+
+# Run Command: cargo run --bin subset_sum_ii
+[[bin]]
+name = "subset_sum_ii"
+path = "chapter_backtracking/subset_sum_ii.rs"
+
+
 [dependencies]
 rand = "0.8.5"
