@@ -33,7 +33,7 @@ fn backtrack(mut state: Vec<i32>, target: i32, choices: &[i32], start: usize, re
     }
 }
 
-/* 求解子集和 I */
+/* 求解子集和 II */
 fn subset_sum_ii(nums: &mut [i32], target: i32) -> Vec<Vec<i32>> {
     let state = Vec::new(); // 状态（子集）
     nums.sort(); // 对 nums 进行排序
@@ -49,7 +49,7 @@ pub fn main() {
     let target = 9;
 
     let res = subset_sum_ii(&mut nums, target);
-    
+
     println!("输入数组 nums = {:?}, target = {}", &nums, target);
     println!("所有和等于 {} 的子集 res = {:?}", target, &res);
 }
